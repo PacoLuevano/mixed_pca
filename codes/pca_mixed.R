@@ -128,7 +128,7 @@ for(i in 1:150){
     if(num_tipos[i] == 1){
         W[i,] <- Z[i,] - mu1
     } else {
-        if(num_tipos[i] == 1){
+        if(num_tipos[i] == 2){
             W[i,] <- Z[i,] - mu2
         } else {
             W[i,] <- Z[i,] - mu3

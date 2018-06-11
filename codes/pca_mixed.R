@@ -135,6 +135,8 @@ for(i in 1:150){
         }
     }
 }
+                    
+# Táchame de loco, pero 
 for(i in 1:150){
     D1[i,-c(5,6)] <- c(norma1(W[i,]),
                   norma2(W[i,]),
